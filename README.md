@@ -13,6 +13,7 @@ sudo ./ledcontrol on ** For turning the LED ON **
 sudo ./ledcontrol off ** For turning the LED OFF **
 
 sudo ./ledcontrol flash ** For blinking LED **
+
 After choose this option, you should enter the times you want the LED blinks.
 
 sudo ./ledcontrol status ** For getting trigger detail of the LED **
