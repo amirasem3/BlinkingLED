@@ -30,8 +30,8 @@ int main (int argc, char* argv[]){
     //define a variable for flashing option
     int flash_number;
     int led_selector;
-    // this condition checks that the user call this program by correct arg or not
-    if (argc!=2){
+    
+    if (argc !=2 ){
         cout << "For using this program, you should call it like below" << endl;
         cout << "(sudo ./ledcontrol on) for turning on the led " << endl;
         cout << "(sudo ./ledcontrol off) for turning off the led" << endl;
